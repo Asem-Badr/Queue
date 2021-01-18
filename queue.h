@@ -15,7 +15,7 @@ void serve (Queue *q , QueueEntry *e);
 int queueSize (Queue *q);
 int queueFull (Queue *q);
 int queueEmpty (Queue *q);
-
+void queueClear(Queue *q);
 
 
 #endif // QUEUE_H_INCLUDED
