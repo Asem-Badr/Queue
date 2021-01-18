@@ -45,3 +45,9 @@ int queueEmpty (Queue *q)
 {
     return q->qcount == 0 ;
 }
+void queueClear(Queue *q)
+{
+    q -> qcount = 0 ;
+    q -> qfront = 0 ;
+    q -> qrear = -1 ;
+}
